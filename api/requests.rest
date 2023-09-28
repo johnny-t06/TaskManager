@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+####
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "fix code"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/64e59a0dd973a1002df90bea
+
+###
+
+PUT http://localhost:3001/todo/complete/64e59ade1572bc9aa7ffb890

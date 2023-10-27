@@ -21,7 +21,7 @@ To install the necessary packages and dependecies.
 
 In /api/ and /client/
 ```
-npm i cors express mongoose
+npm i
 ```
 
 ### Running the server
